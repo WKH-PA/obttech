@@ -1,0 +1,1 @@
+[{"id":"100","id_parent":"124","icon":"1632989059_1.jpg","tenbaiviet_vi":null,"tenbaiviet_en":null,"sort":"0","duongdantin":"datafiles","the_loai":"0","is_dongdau":"0","time_dongdau":"0"}]

@@ -1,0 +1,1 @@
+[{"id":"250","id_parent":"122","icon":"1634482162_OBT-GL6.png","tenbaiviet_vi":null,"tenbaiviet_en":null,"sort":"1","duongdantin":"datafiles","the_loai":"0","is_dongdau":"0","time_dongdau":"0"}]
