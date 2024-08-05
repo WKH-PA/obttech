@@ -1,0 +1,17 @@
+#divbox_frame, #divbox_frame * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+#divbox a { margin: 0; padding:0; }
+#divbox { background: #000000; opacity: .5; filter:alpha(opacity=50); margin: 0; padding: 0; }
+#divbox_data { margin: 0; padding: 0; }
+#divbox_frame { margin: 0; padding: 0; }
+#divbox_frame { background: #fff ; border: 0px solid #eee; }
+#divbox_frame.white { background: none; background-color: white; }
+#divbox_frame .closed { position: absolute; top: -18px; right: -18px; width: 36px; height: 36px; cursor: pointer; background-image: url(../images/fancybox_sprite.png); z-index: 9999; }
+#divbox_frame .prev, #divbox_frame .next, #divbox_frame .number { position: absolute; z-index: 1006; width: 30px; height: 24px; cursor: pointer; }
+#divbox_frame .prev, #divbox_frame .prevDisabled { left: 0; display: none; }
+#divbox_frame .prevDisabled { }
+#divbox_frame .next, #divbox_frame .nextDisabled { right: 2px; }
+#divbox_frame .number { right: 30px; width: 20px; }
+div#divbox_content img { padding: 7px; }
+#divbox_frame .caption { display: none !important; background: #ccc; opacity: .5; filter:alpha(opacity=50); color: #000; padding-left: 30px; padding-right: 50px; padding-top: 5px; padding-bottom: 5px; overflow: hidden; }
+#divbox_ajax { display: none; width: 400px; }
+span.step_title { font-style: italic; font-weight: bold; }
