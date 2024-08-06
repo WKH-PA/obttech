@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.0
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Aug 05, 2024 at 04:28 AM
--- Server version: 10.4.18-MariaDB
--- PHP Version: 7.4.16
+-- Host: localhost
+-- Generation Time: Aug 06, 2024 at 12:15 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `obtte206_db`
+-- Database: `test1`
 --
 
 -- --------------------------------------------------------
@@ -1184,7 +1184,7 @@ CREATE TABLE `lh_counter` (
 --
 
 INSERT INTO `lh_counter` (`id`, `coonter`) VALUES
-(1, 111499);
+(1, 111505);
 
 -- --------------------------------------------------------
 
@@ -1264,7 +1264,8 @@ INSERT INTO `lh_count_date` (`id`, `day`, `month`, `year`, `count`) VALUES
 (57, 6, 8, 2021, 1),
 (58, 16, 8, 2021, 16),
 (59, 18, 6, 2024, 2),
-(60, 5, 8, 2024, 1);
+(60, 5, 8, 2024, 6),
+(61, 6, 8, 2024, 1);
 
 -- --------------------------------------------------------
 
@@ -1974,7 +1975,7 @@ CREATE TABLE `lh_online` (
 --
 
 INSERT INTO `lh_online` (`uip`, `sidd`, `timer`, `uid`) VALUES
-('::1', '6a39fb9acfd3239d0ef6412730a21c03', '1722824105', 0);
+('::1', 'cb5cf7d67325d1cd810fc09c4d3c8288', '1722938990', 0);
 
 -- --------------------------------------------------------
 
@@ -2154,7 +2155,7 @@ CREATE TABLE `lh_seo` (
 --
 
 INSERT INTO `lh_seo` (`id`, `seo_title_vi`, `seo_title_en`, `seo_title_cn`, `seo_title_jp`, `seo_description_vi`, `seo_description_en`, `seo_description_cn`, `seo_description_jp`, `seo_keywords_vi`, `seo_keywords_en`, `seo_keywords_cn`, `seo_keywords_jp`, `duongdantin`, `icon`, `favico`, `robots`, `tenbaiviet_vi`, `tenbaiviet_en`, `tenbaiviet_cn`, `tenbaiviet_jp`, `diachi_vi`, `diachi_en`, `diachi_cn`, `diachi_jp`, `sodienthoai_vi`, `hotline_vi`, `email_vi`, `em_ip`, `em_taikhoan`, `em_pass`, `js_google_anilatic`, `js_google_anilatic_body`, `khoa_website`, `is_khoasite`, `is_https`, `is_intro`, `fb_app`, `fb_id`, `is_comment`, `is_lang`, `is_saochep`, `is_tiengviet`, `is_giamuti`, `menu_hinhanh`, `menu_hinhanh_size`, `menu_hinhanh_hv`, `menu_danhmuc`, `menu_kieuhienthi`, `is_login_fb`, `is_login_gg`, `fb_app_id`, `fb_app_secret`, `fb_url`, `gg_client_id`, `gg_client_secret`, `gg_url`, `lic_name`, `lic_key`, `mxh_is_anh`, `mxh_is_css`, `mxh_is_bg`, `bvct_noidung`, `bvct_hinhanh`, `bvct_file`, `seo_title_kr`, `seo_title_in`, `seo_description_kr`, `seo_description_in`, `seo_keywords_kr`, `seo_keywords_in`, `tenbaiviet_kr`, `tenbaiviet_in`, `diachi_kr`, `diachi_in`, `dongdau_img`, `dongdau_step`, `dongdau_check`, `slider_speed`, `slider_cho`, `font_name`, `font_link`, `slider_hieuung`, `css_pc`, `css_mb`) VALUES
-(1, 'CÔNG TY TM DV OBT VIỆT NAM', 'OBT TRADING SERVICE VIETNAM COMPANY', 'Famiviet', 'さくらプラスチックカンパニー', 'CÔNG TY TM DV OBT VIỆT NAM', 'OBT TRADING SERVICE VIETNAM COMPANY', 'Famiviet', 'さくらプラスチックカンパニー', 'CÔNG TY TM DV OBT VIỆT NAM', 'OBT TRADING SERVICE VIETNAM COMPANY', 'Famiviet', 'さくらプラスチックカンパニー', 'datafiles', '1619085591_logo.jpg', '1622088643_logo-removebg-preview.png', 'User-agent: *\r\nDisallow: /myadmin/', 'CÔNG TY TM DV OBT VIỆT NAM', 'OBT TRADING SERVICE VIETNAM COMPANY', 'Famiviet', 'さくらプラスチックカンパニー', '130 Phan Đình Phùng, Phường 2, Quận Bình Thạnh, Việt Nam', 'B1-028 / 1, Hoa Long Quarter, Vinh Phu Ward, Thuan An Town, Binh Duong Province', '5/447 Lac Long Quan, Район Тай Хо, Ханой, Вьетнам', 'No. 23、Street 12、Ward Linh Tay、Thu Duc District、City。ホーチミン', '0971 570 707', '0971 570 707', 'orbitavn-marketing@gmail.com', '112.213.89.37', 'no-reply@webdemo5.pavietnam.vn', 'qqhtV&lFs#RZ', '<!-- Google Tag Manager -->\r\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\'gtm.start\':\r\nnew Date().getTime(),event:\'gtm.js\'});var f=d.getElementsByTagName(s)[0],\r\nj=d.createElement(s),dl=l!=\'dataLayer\'?\'&l=\'+l:\'\';j.async=true;j.src=\r\n\'https://www.googletagmanager.com/gtm.js?id=\'+i+dl;f.parentNode.insertBefore(j,f);\r\n})(window,document,\'script\',\'dataLayer\',\'GTM-P69TJ5X\');</script>\r\n<!-- End Google Tag Manager -->', '<!-- Google Tag Manager (noscript) -->\r\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P69TJ5X\"\r\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\r\n<!-- End Google Tag Manager (noscript) -->', '<p>...</p>', 0, 1, 0, '', '', 1, 1, 0, 1, 0, 0, '(300px x 300px)', 0, 0, 1, 0, 0, '', '', '', '', '', '', 'webdemo5.pavietnam.vn', 'X64F-Y89T-Y767-47A1-8UM5-NB15', 1, 0, 0, 1, 0, 0, 'Famiviet', '亲属', 'Famiviet', '亲属', 'Famiviet', '亲属', 'Famiviet', '亲属', '5/447 Lac Long Quan, Tay Ho District, 하노이, 베트남', '越南河内市大河区五龙泉5/447', '1619515697_1619431605_nenn-2.png', '2', 0, 20, 3, '', '', '1', '/* css tiêu đề trang chủ */\r\n.title { font-size: 33px; line-height: 35px; color: #413853;  font-family: \'Playfair Display\' }\r\n\r\n/* css tiêu đề trang con */\r\n.banner-detail h3 {  font-size: 33px; line-height: 45px; color: #fff;}', '/* css tiêu đề trang chủ */\r\n.title { font-size: 25px; line-height: 32px; color: #413853;  font-family: \'Playfair Display\' }\r\n\r\n/* css tiêu đề trang con */\r\n.banner-detail h3 {  font-size: 22px; line-height: 32px; color: #fff;}');
+(1, 'CÔNG TY TM DV OBT VIỆT NAM', 'OBT TRADING SERVICE VIETNAM COMPANY', 'Famiviet', 'さくらプラスチックカンパニー', 'CÔNG TY TM DV OBT VIỆT NAM', 'OBT TRADING SERVICE VIETNAM COMPANY', 'Famiviet', 'さくらプラスチックカンパニー', 'CÔNG TY TM DV OBT VIỆT NAM', 'OBT TRADING SERVICE VIETNAM COMPANY', 'Famiviet', 'さくらプラスチックカンパニー', 'datafiles', '1619085591_logo.jpg', '1622088643_logo-removebg-preview.png', 'User-agent: *\r\nDisallow: /myadmin/', 'CÔNG TY TM DV OBT VIỆT NAM', 'OBT TRADING SERVICE VIETNAM COMPANY', 'Famiviet', 'さくらプラスチックカンパニー', '130 Phan Đình Phùng, Phường 2, Quận Bình Thạnh, Việt Nam', 'B1-028 / 1, Hoa Long Quarter, Vinh Phu Ward, Thuan An Town, Binh Duong Province', '5/447 Lac Long Quan, Район Тай Хо, Ханой, Вьетнам', 'No. 23、Street 12、Ward Linh Tay、Thu Duc District、City。ホーチミン', '0971 570 707', '0971 570 707', 'orbitavn-marketing@gmail.com', '112.213.89.37', 'no-reply@webdemo5.pavietnam.vn', 'qqhtV&lFs#RZ', '<!-- Google Tag Manager -->\r\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\'gtm.start\':\r\nnew Date().getTime(),event:\'gtm.js\'});var f=d.getElementsByTagName(s)[0],\r\nj=d.createElement(s),dl=l!=\'dataLayer\'?\'&l=\'+l:\'\';j.async=true;j.src=\r\n\'https://www.googletagmanager.com/gtm.js?id=\'+i+dl;f.parentNode.insertBefore(j,f);\r\n})(window,document,\'script\',\'dataLayer\',\'GTM-P69TJ5X\');</script>\r\n<!-- End Google Tag Manager -->', '<!-- Google Tag Manager (noscript) -->\r\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-P69TJ5X\"\r\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\r\n<!-- End Google Tag Manager (noscript) -->', '<p>...</p>', 0, 0, 0, '', '', 1, 1, 0, 1, 0, 0, '(300px x 300px)', 0, 0, 1, 0, 0, '', '', '', '', '', '', 'webdemo5.pavietnam.vn', 'X64F-Y89T-Y767-47A1-8UM5-NB15', 1, 0, 0, 1, 0, 0, 'Famiviet', '亲属', 'Famiviet', '亲属', 'Famiviet', '亲属', 'Famiviet', '亲属', '5/447 Lac Long Quan, Tay Ho District, 하노이, 베트남', '越南河内市大河区五龙泉5/447', '1619515697_1619431605_nenn-2.png', '2', 0, 20, 3, '', '', '1', '/* css tiêu đề trang chủ */\r\n.title { font-size: 33px; line-height: 35px; color: #413853;  font-family: \'Playfair Display\' }\r\n\r\n/* css tiêu đề trang con */\r\n.banner-detail h3 {  font-size: 33px; line-height: 45px; color: #fff;}', '/* css tiêu đề trang chủ */\r\n.title { font-size: 25px; line-height: 32px; color: #413853;  font-family: \'Playfair Display\' }\r\n\r\n/* css tiêu đề trang con */\r\n.banner-detail h3 {  font-size: 22px; line-height: 32px; color: #fff;}');
 
 -- --------------------------------------------------------
 
@@ -3179,7 +3180,6 @@ INSERT INTO `lh_slug` (`id`, `bang`, `slug`, `id_bang`, `step`) VALUES
 (71, 'baiviet', 'tuyen-dung-ky-thuat-vien-dien-dien-tu', 61, 5),
 (72, 'baiviet', 'dich-vu-obt-viet-nam-cp-358761619144854', 62, 5),
 (73, 'step', 'lien-he', 6, 6),
-(74, 'baiviet', '26a5258d9e821a119802dbe56307ef17', 63, 6),
 (75, 'step', 'he-thong-chi-nhanh', 7, 7),
 (76, 'baiviet', 'nha-trang', 64, 7),
 (77, 'baiviet', 'nha-trang-77', 65, 7),
@@ -3777,7 +3777,7 @@ ALTER TABLE `lh_counter`
 -- AUTO_INCREMENT for table `lh_count_date`
 --
 ALTER TABLE `lh_count_date`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
 
 --
 -- AUTO_INCREMENT for table `lh_danhmuc`
