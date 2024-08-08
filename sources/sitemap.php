@@ -11,7 +11,7 @@ $sitemap = '<url>
 	        <priority>1.00</priority>
 	      </url>';
 
-$arrsitemap = DB_que("SELECT * FROM `#_slug` ORDER BY `id` DESC");
+$arrsitemap = DB_que("SELECT * FROM `#_slug` WHERE `slug` != '26a5258d9e821a119802dbe56307ef17' ORDER BY `id` DESC");
 while($row  = mysqli_fetch_array($arrsitemap))
 {
     $sitemap .= '<url>
